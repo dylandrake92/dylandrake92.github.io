@@ -54,22 +54,100 @@
 This ePortfolio showcases selected artifacts developed throughout the Computer Science program,
 with a focus on software design, algorithms and data structures, and database systems.
 Each artifact demonstrates progressive improvement, reflection, and alignment with
-industry-relevant practices.
+industry-relevant software engineering practices.
 </p>
 
 <!-- ================= ENHANCEMENT 1 ================= -->
 <section>
-  <h2>Enhancement One: Software Design</h2>
+  <h2>Enhancement One: Software Design and Engineering</h2>
+
   <div class="artifact">
-    <p><em>Content to be added.</em></p>
+    <h3>Artifact Description</h3>
+    <p>
+      The artifact selected for this enhancement is a Node.js and Express REST API backed by MongoDB
+      using Mongoose. The application provides CRUD functionality for a Tutorial resource, including
+      endpoints to create, retrieve, update, and delete records. The original version of this artifact
+      was created prior to CS 499 as a starter REST API project and was selected early in this course
+      as the foundation for my ePortfolio. I used the original implementation as a baseline for
+      conducting a formal code review and identifying software design and engineering improvements.
+    </p>
+
+    <h3>Justification for Inclusion and Improvements</h3>
+    <p>
+      I selected this artifact for my ePortfolio because it demonstrates practical backend software
+      engineering skills that align with industry expectations. The project showcases my ability to
+      evaluate an existing codebase and apply targeted design improvements rather than developing a
+      solution from scratch. For this enhancement, I improved the overall structure and maintainability
+      of the application by separating application configuration from server startup logic, which
+      simplifies testing and improves clarity. I implemented centralized error handling to standardize
+      API responses and prevent sensitive internal details from being exposed. I also added input
+      validation and field whitelisting for create and update operations to reduce the risk of invalid
+      or unexpected data being persisted. Finally, I added automated tests using Jest and Supertest to
+      verify key API behaviors and protect against regressions. These changes demonstrate my ability
+      to apply professional software design practices that improve reliability, security, and
+      maintainability.
+    </p>
+
+    <h3>Course Outcomes and Outcome Coverage</h3>
+    <p>
+      This enhancement met the course outcomes I planned to address in Module One. Specifically, it
+      demonstrates my ability to use well-founded tools and techniques to implement computing
+      solutions that deliver value through improved design and structure. The addition of centralized
+      error handling and validation reflects a security mindset by anticipating common failure cases
+      and mitigating potential design flaws. This enhancement also supports clear technical
+      communication through consistent response patterns and testable behavior.
+    </p>
   </div>
 </section>
 
 <!-- ================= ENHANCEMENT 2 ================= -->
 <section>
   <h2>Enhancement Two: Algorithms and Data Structures</h2>
+
   <div class="artifact">
-    <p><em>Content to be added.</em></p>
+    <h3>Artifact Description</h3>
+    <p>
+      The artifact used for Enhancement Two is a Node.js and Express REST API backed by MongoDB using
+      Mongoose. This application was previously enhanced during Enhancement One to improve software
+      design, structure, and maintainability. For Enhancement Two, the same approved artifact was
+      extended to demonstrate algorithmic reasoning and data structure usage by improving how
+      collections of data are processed, validated, and returned through the API.
+    </p>
+
+    <h3>Justification for Inclusion and Skills Demonstrated</h3>
+    <p>
+      I selected this artifact for the algorithms and data structures category because it provides a
+      realistic context for demonstrating algorithmic problem-solving beyond basic CRUD operations.
+      Rather than creating a new or isolated example, this enhancement builds directly on an existing
+      codebase and improves how data is retrieved and managed at scale.
+    </p>
+
+    <p>
+      Enhancement Two focuses on implementing pagination, sorting, and filtering algorithms for the
+      tutorial listing endpoints. User-provided query parameters are validated and transformed into
+      structured data objects that control execution flow. Pagination is implemented by converting
+      page and pageSize values into calculated offsets using skip and limit logic, ensuring that only
+      the necessary records are retrieved. Sorting is handled through allow-listed fields and
+      controlled direction values to maintain predictable behavior and prevent invalid execution
+      paths.
+    </p>
+
+    <h3>Course Outcomes and Planned Coverage</h3>
+    <p>
+      This enhancement satisfies the outcome plan established in Module One by demonstrating the
+      application of algorithmic principles to improve an existing system. The work shows measurable
+      improvements to data handling logic, execution efficiency, and correctness while maintaining
+      clarity and maintainability.
+    </p>
+
+    <h3>Reflection on the Enhancement Process</h3>
+    <p>
+      Working on Enhancement Two reinforced the importance of intentional algorithm design in systems
+      that must handle variable input and evolving data sets. A key lesson was that even common
+      features such as pagination and sorting require careful validation and structure to avoid
+      inefficiencies and errors. This enhancement represents a progression from improving structure
+      in Enhancement One to applying algorithmic reasoning to improve system behavior and performance.
+    </p>
   </div>
 </section>
 
@@ -88,36 +166,30 @@ industry-relevant practices.
       data integrity, validation, and query performance.
     </p>
 
-    <h3>Justification for Inclusion</h3>
+    <h3>Justification for Inclusion in ePortfolio</h3>
     <p>
-      This artifact was selected for inclusion because it demonstrates practical database skills
-      commonly required in professional software development environments. The enhancement highlights
-      the ability to enforce data integrity, design efficient query patterns, and integrate database
-      solutions into a backend application architecture.
+      This artifact was selected for inclusion in my ePortfolio because it demonstrates practical
+      database skills that are commonly required in professional software development environments.
+      The enhancement reflects an understanding of how backend systems manage and protect data while
+      supporting efficient access patterns.
     </p>
 
-    <h3>Enhancement Summary</h3>
+    <h3>Skills and Abilities Demonstrated</h3>
     <p>
-      The database layer was enhanced by adding schema-level constraints to enforce required fields,
-      length limits, and default values. Update operations were configured to enforce validation rules,
-      ensuring data integrity during modifications. Indexes were designed and applied to support
-      filtering and sorting operations, improving query performance. Automated tests were used to
-      verify correct behavior and confirm the existence of indexes.
+      Schema-level constraints were added to enforce required fields, limit string lengths, and apply
+      default values, ensuring that data stored in the database remains consistent and valid. Update
+      operations were configured to enforce validation rules, preventing invalid data from being
+      introduced during modifications. Indexes were designed and applied to support common filtering
+      and sorting operations, improving query efficiency.
     </p>
 
-    <h3>Reflection</h3>
+    <h3>Reflection on the Enhancement Process</h3>
     <p>
-      This enhancement improved my understanding of how application-level schema validation operates
-      in a NoSQL environment and how update operations require explicit configuration to maintain
-      data integrity. I also gained experience designing indexes based on actual query usage. Overall,
-      this work strengthened my ability to design reliable and efficient database-backed applications.
-    </p>
-
-    <p>
-      <strong>Code Repository:</strong>
-      <a href="https://github.com/dylandrake92/node-express-mongodb" target="_blank">
-        View Source Code
-      </a>
+      This enhancement improved my understanding of how application-level database validation
+      operates in a NoSQL environment and how update operations require explicit configuration to
+      maintain data integrity. I also gained experience designing indexes based on real query usage.
+      Overall, this work strengthened my ability to design reliable and efficient database-backed
+      applications aligned with professional software development practices.
     </p>
   </div>
 </section>
