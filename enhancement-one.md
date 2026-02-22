@@ -1,7 +1,7 @@
 # Enhancement One: Software Design and Engineering
 
-# Original: https://github.com/dylandrake92/node-express-mongodb/tree/master
-# Enhancement: https://github.com/dylandrake92/node-express-mongodb/tree/enhancement-1
+## Original: https://github.com/dylandrake92/node-express-mongodb/tree/master
+## Enhancement: https://github.com/dylandrake92/node-express-mongodb/tree/enhancement-1
 
 ## Artifact Description
 The artifact selected for this enhancement is a Node.js and Express REST API backed by MongoDB using Mongoose. The application provides CRUD functionality for a Tutorial resource, including endpoints to create, retrieve, update, and delete records. The original version of this artifact was created prior to CS 499 as a starter REST API project and was selected early in this course as the foundation for my ePortfolio. I used the original implementation as a baseline for conducting a formal code review and identifying software design and engineering improvements.
