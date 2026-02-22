@@ -1,0 +1,10 @@
+title: Dylan Drake | CS 499 ePortfolio
+theme: minima
+header_pages:
+  - index.md
+  - self-assessment.md
+  - code-review.md
+  - artifact.md
+  - enhancement-one.md
+  - enhancement-two.md
+  - enhancement-three.md
