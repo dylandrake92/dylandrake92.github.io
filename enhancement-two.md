@@ -1,5 +1,8 @@
 # Enhancement Two: Algorithms and Data Structures
 
+# Original: https://github.com/dylandrake92/node-express-mongodb/tree/master
+# Enhancement: https://github.com/dylandrake92/node-express-mongodb/tree/enhancement-2
+
 ## Artifact Description
 The artifact used for Enhancement Two is a Node.js and Express REST API backed by MongoDB using Mongoose. This application was previously enhanced during Enhancement One to improve software design, structure, and maintainability. For Enhancement Two, the same approved artifact was extended to demonstrate algorithmic reasoning and data structure usage by improving how collections of data are processed, validated, and returned through the API. This enhancement was completed as part of the CS 499 capstone to demonstrate growth in applying algorithmic principles within an existing, non-trivial system.
 
