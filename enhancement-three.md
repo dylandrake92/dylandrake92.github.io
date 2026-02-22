@@ -1,7 +1,7 @@
 # Enhancement Three: Databases
 
-# Original: https://github.com/dylandrake92/node-express-mongodb/tree/master
-# Enhancement: https://github.com/dylandrake92/node-express-mongodb/tree/enhancement-3
+## Original: https://github.com/dylandrake92/node-express-mongodb/tree/master
+## Enhancement: https://github.com/dylandrake92/node-express-mongodb/tree/enhancement-3
 
 ## Artifact Description
 The artifact selected for this enhancement is a RESTful API developed using Node.js, Express, MongoDB, and Mongoose. The application manages tutorial records and supports full CRUD functionality along with filtering, sorting, and pagination. The original version of this artifact was created in earlier coursework and has been progressively enhanced throughout CS 499. This enhancement focuses specifically on improving the database layer by strengthening data integrity, validation, and query performance.
